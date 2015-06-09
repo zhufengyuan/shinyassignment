@@ -1,0 +1,35 @@
+project of Develping data product
+========================================================
+author: zhufengyuan 
+date: Tuesday, June 09, 2015
+
+Introduction
+========================================================
+
+There isn't easy to describe the data on the website. But with the guidance of the shiny,we can illustrate the partten easily.
+
+Now we use shiny to express the histogram. And same time, We use presentation introduce the data.
+
+
+Slide With Code
+========================================================
+Here is the roughly detail of the data of iris, just six row.We observe Sepal and Petal, two mainly parts of each iris.We get the data by surveying Length and Width of these two parts.   
+
+```{r}
+head(iris)
+```
+
+
+
+Slide With Code2
+========================================================
+Here is the summary data of iris:
+```{r}
+summary(iris)
+```
+By searching the summary data, we find the mean of Length and Width of Sepal is 5.843 and 3.057.The mean of Length and Width of Petal is 3.758 and 1.199. And there are three Species:setosa,versicolor,virginica.Each number of Species is 50.
+
+Thanks everyone!
+========================================================
+
+
